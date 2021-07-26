@@ -1,5 +1,8 @@
 <template>
-  <Tutorial/>
+<div>hello from index
+  
+</div>
+
 </template>
 
 <script>
