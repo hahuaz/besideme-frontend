@@ -58,7 +58,7 @@ export default {
   fontawesome: {
     icons: {
       solid: true,
-      // regular: [ ... ],
+      // regular: ['faUser'],
       // light: [ ... ],
       // duotone: [ ... ],
       brands: true,
