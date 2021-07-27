@@ -5,16 +5,19 @@
         <div
           class="grid grid-flow-col justify-end items-center gap-x-5 py-2 px-10"
         >
-          <span class="text-gray-300 text-sm">+90 545 55 55 </span>
+          <div class="space-x-2 divide-x-2 divide-gray-400">
+            <span class="text-gray-300 text-sm">info@besideme.com </span>
+            <span class="text-gray-300 text-sm pl-2">+90 545 55 55 </span>
+          </div>
           <a
             href="#"
             class="
               px-4
               py-1
-              bg-[#318ea0]
+              bg-c-blue
               text-white
               rounded-md
-              hover:bg-[#3eacc2]
+              hover:bg-blue-800
               text-sm
               font-semibold
             "
