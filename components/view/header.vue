@@ -1,217 +1,218 @@
 <template>
   <div>
-    <div class="header__top bg-black-light">
-      <div class="grid grid-flow-col justify-between items-center py-1 px-10">
-        <div>
-          <a href="/"> <img src="/logo-text.png" alt="" class="h-10" /></a>
-        </div>
-        <a
-          href="#"
-          class="
-            px-4
-            py-1
-            bg-[#318ea0]
-            text-white
-            rounded-md
-            hover:bg-[#3eacc2]
-            text-sm
-            font-semibold
-          "
-          >Partnership</a
+    <div class="shadow-2xl relative z-10">
+      <div class="header__top bg-black-light">
+        <div
+          class="grid grid-flow-col justify-end items-center gap-x-5 py-2 px-10"
         >
+          <span class="text-gray-300 text-sm">+90 545 55 55 </span>
+          <a
+            href="#"
+            class="
+              px-4
+              py-1
+              bg-[#318ea0]
+              text-white
+              rounded-md
+              hover:bg-[#3eacc2]
+              text-sm
+              font-semibold
+            "
+            >Be a Partner</a
+          >
+        </div>
       </div>
-    </div>
-    <div class="bg-gray-50">
-      <div class="max-w-screen-xl mx-auto grid grid-flow-col justify-between">
-        <ul class="nav grid grid-flow-col justify-start items-center gap-x-10">
-          <li
-            class="nav__item"
-            @mouseenter="$event.target.classList.toggle('menu--open')"
-            @mouseleave="$event.target.classList.toggle('menu--open')"
+      <div class="bg-gray-50">
+        <div class="max-w-screen-xl mx-auto grid grid-flow-col justify-between">
+          <ul
+            class="nav grid grid-flow-col justify-start items-center gap-x-10"
           >
-            <a class="nav__link" href="#"
-              >Home
-              <span class="menu-indicator">
-                <span class="menu-indicator-chevron"></span>
-              </span>
-            </a>
-            <ul class="menu menu--main">
-              <li><a href="#">Lorem</a></li>
-              <li><a href="">Sit Ametes Cezete</a></li>
-              <li><a href="">Valis Kaste Akse</a></li>
-              <li><a href="">Mahtel Lerste</a></li>
-              <li><a href="">Velse Kesente</a></li>
-              <li
-                class="nav__item"
-                @mouseenter="$event.target.classList.toggle('menu--open')"
-                @mouseleave="$event.target.classList.toggle('menu--open')"
-              >
-                <a href="">
-                  <div class="relative inline-block">
-                    Sit Antenkentest
-                    <span class="submenu-indicator">
-                      <span class="submenu-indicator-chevron"></span>
-                    </span>
-                  </div>
-                </a>
-
-                <ul class="menu menu--sub">
-                  <li><a href="">Lorem Lore</a></li>
-                  <li><a href="">Kalbe</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li
-            class="nav__item"
-            @mouseenter="$event.target.classList.toggle('menu--open')"
-            @mouseleave="$event.target.classList.toggle('menu--open')"
-          >
-            <a class="nav__link" href="#"
-              >Features
-              <span class="menu-indicator">
-                <span class="menu-indicator-chevron"></span>
-              </span>
-            </a>
-            <ul class="menu menu--main">
-              <li
-                class="nav__item"
-                @mouseenter="$event.target.classList.toggle('menu--open')"
-                @mouseleave="$event.target.classList.toggle('menu--open')"
-              >
-                <a href="">
-                  <div class="relative inline-block">
-                    Parsel
-                    <span class="submenu-indicator">
-                      <span class="submenu-indicator-chevron"></span>
-                    </span>
-                  </div>
-                </a>
-
-                <ul class="menu menu--sub">
-                  <li><a href="">Coffe</a></li>
-                  <li><a href="">Coffe Tables</a></li>
-                  <li><a href="">Tea Tea</a></li>
-                  <li><a href="">Cold Tea</a></li>
-                </ul>
-              </li>
-              <li
-                class="nav__item"
-                @mouseenter="$event.target.classList.toggle('menu--open')"
-                @mouseleave="$event.target.classList.toggle('menu--open')"
-              >
-                <a href="">
-                  <div class="relative inline-block">
-                    Parsel Out
-                    <span class="submenu-indicator">
-                      <span class="submenu-indicator-chevron"></span>
-                    </span>
-                  </div>
-                </a>
-
-                <ul class="menu menu--sub">
-                  <li><a href="">Lorem Itsum</a></li>
-                  <li><a href="">Dolar Sit Amet</a></li>
-                  <li><a href="">Braven</a></li>
-                </ul>
-              </li>
-              <li
-                class="nav__item"
-                @mouseenter="$event.target.classList.toggle('menu--open')"
-                @mouseleave="$event.target.classList.toggle('menu--open')"
-              >
-                <a href="">
-                  <div class="relative inline-block">
-                    All the Things
-                    <span class="submenu-indicator">
-                      <span class="submenu-indicator-chevron"></span>
-                    </span>
-                  </div>
-                </a>
-
-                <ul class="menu menu--sub">
-                  <li><a href="">Team A</a></li>
-                  <li><a href="">Team B</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li
-            class="nav__item"
-            @mouseenter="$event.target.classList.toggle('menu--open')"
-            @mouseleave="$event.target.classList.toggle('menu--open')"
-          >
-            <a class="nav__link" href="#"
-              >Projects
-              <span class="menu-indicator">
-                <span class="menu-indicator-chevron"></span>
-              </span>
-            </a>
-            <ul class="menu menu--main">
-              <li><a href="#">Losta</a></li>
-              <li><a href="">Sit Amete</a></li>
-              <li><a href="">Valid By Goverment</a></li>
-
-              <li
-                class="nav__item"
-                @mouseenter="$event.target.classList.toggle('menu--open')"
-                @mouseleave="$event.target.classList.toggle('menu--open')"
-              >
-                <a href="">
-                  <div class="relative inline-block">
-                    Completed
-                    <span class="submenu-indicator">
-                      <span class="submenu-indicator-chevron"></span>
-                    </span>
-                  </div>
-                </a>
-
-                <ul class="menu menu--sub">
-                  <li><a href="">Lorem Lore</a></li>
-                  <li><a href="">Kalbe</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li
-            class="nav__item"
-            @mouseenter="$event.target.classList.toggle('menu--open')"
-            @mouseleave="$event.target.classList.toggle('menu--open')"
-          >
-            <a class="nav__link" href="#"
-              >Pages
-              <span class="menu-indicator">
-                <span class="menu-indicator-chevron"></span>
-              </span>
-            </a>
-            <ul class="menu menu--main">
-              <li><a href="#">Page A</a></li>
-              <li><a href="">Example Page</a></li>
-              <li><a href="">Solid</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#" class="py-[30px] text-yellow-600">
+            <li>
+              <a href="/"> <img src="/logo.png" alt="" class="h-10" /></a>
+            </li>
+            <li
+              class="nav__item"
+              @mouseenter="$event.target.classList.toggle('menu--open')"
+              @mouseleave="$event.target.classList.toggle('menu--open')"
+            >
+              <a class="nav__link" href="#"
+                >Home
+                <span class="menu-indicator">
+                  <span class="menu-indicator-chevron"></span>
+                </span>
+              </a>
+              <ul class="menu menu--main">
+                <li><a href="#">Lorem</a></li>
+                <li><a href="">Sit Ametes Cezete</a></li>
+                <li><a href="">Valis Kaste Akse</a></li>
+                <li><a href="">Mahtel Lerste</a></li>
+                <li><a href="">Velse Kesente</a></li>
+                <li
+                  class="nav__item"
+                  @mouseenter="$event.target.classList.toggle('menu--open')"
+                  @mouseleave="$event.target.classList.toggle('menu--open')"
+                >
+                  <a href="">
+                    <div class="relative inline-block">
+                      Sit Antenkentest
+                      <span class="submenu-indicator">
+                        <span class="submenu-indicator-chevron"></span>
+                      </span>
+                    </div>
+                  </a>
+                  <ul class="menu menu--sub">
+                    <li><a href="">Lorem Lore</a></li>
+                    <li><a href="">Kalbe</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="nav__item"
+              @mouseenter="$event.target.classList.toggle('menu--open')"
+              @mouseleave="$event.target.classList.toggle('menu--open')"
+            >
+              <a class="nav__link" href="#"
+                >Features
+                <span class="menu-indicator">
+                  <span class="menu-indicator-chevron"></span>
+                </span>
+              </a>
+              <ul class="menu menu--main">
+                <li
+                  class="nav__item"
+                  @mouseenter="$event.target.classList.toggle('menu--open')"
+                  @mouseleave="$event.target.classList.toggle('menu--open')"
+                >
+                  <a href="">
+                    <div class="relative inline-block">
+                      Parsel
+                      <span class="submenu-indicator">
+                        <span class="submenu-indicator-chevron"></span>
+                      </span>
+                    </div>
+                  </a>
+                  <ul class="menu menu--sub">
+                    <li><a href="">Coffe</a></li>
+                    <li><a href="">Coffe Tables</a></li>
+                    <li><a href="">Tea Tea</a></li>
+                    <li><a href="">Cold Tea</a></li>
+                  </ul>
+                </li>
+                <li
+                  class="nav__item"
+                  @mouseenter="$event.target.classList.toggle('menu--open')"
+                  @mouseleave="$event.target.classList.toggle('menu--open')"
+                >
+                  <a href="">
+                    <div class="relative inline-block">
+                      Parsel Out
+                      <span class="submenu-indicator">
+                        <span class="submenu-indicator-chevron"></span>
+                      </span>
+                    </div>
+                  </a>
+                  <ul class="menu menu--sub">
+                    <li><a href="">Lorem Itsum</a></li>
+                    <li><a href="">Dolar Sit Amet</a></li>
+                    <li><a href="">Braven</a></li>
+                  </ul>
+                </li>
+                <li
+                  class="nav__item"
+                  @mouseenter="$event.target.classList.toggle('menu--open')"
+                  @mouseleave="$event.target.classList.toggle('menu--open')"
+                >
+                  <a href="">
+                    <div class="relative inline-block">
+                      All the Things
+                      <span class="submenu-indicator">
+                        <span class="submenu-indicator-chevron"></span>
+                      </span>
+                    </div>
+                  </a>
+                  <ul class="menu menu--sub">
+                    <li><a href="">Team A</a></li>
+                    <li><a href="">Team B</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="nav__item"
+              @mouseenter="$event.target.classList.toggle('menu--open')"
+              @mouseleave="$event.target.classList.toggle('menu--open')"
+            >
+              <a class="nav__link" href="#"
+                >Projects
+                <span class="menu-indicator">
+                  <span class="menu-indicator-chevron"></span>
+                </span>
+              </a>
+              <ul class="menu menu--main">
+                <li><a href="#">Losta</a></li>
+                <li><a href="">Sit Amete</a></li>
+                <li><a href="">Valid By Goverment</a></li>
+                <li
+                  class="nav__item"
+                  @mouseenter="$event.target.classList.toggle('menu--open')"
+                  @mouseleave="$event.target.classList.toggle('menu--open')"
+                >
+                  <a href="">
+                    <div class="relative inline-block">
+                      Completed
+                      <span class="submenu-indicator">
+                        <span class="submenu-indicator-chevron"></span>
+                      </span>
+                    </div>
+                  </a>
+                  <ul class="menu menu--sub">
+                    <li><a href="">Lorem Lore</a></li>
+                    <li><a href="">Kalbe</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="nav__item"
+              @mouseenter="$event.target.classList.toggle('menu--open')"
+              @mouseleave="$event.target.classList.toggle('menu--open')"
+            >
+              <a class="nav__link" href="#"
+                >Pages
+                <span class="menu-indicator">
+                  <span class="menu-indicator-chevron"></span>
+                </span>
+              </a>
+              <ul class="menu menu--main">
+                <li><a href="#">Page A</a></li>
+                <li><a href="">Example Page</a></li>
+                <li><a href="">Solid</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="py-[30px] text-yellow-600">
+                <font-awesome-icon
+                  :icon="['fas', 'fire-alt']"
+                  class="text-sm"
+                ></font-awesome-icon>
+                <span>New Proporties</span>
+              </a>
+            </li>
+          </ul>
+          <div class="grid grid-flow-col items-center gap-x-4">
+            <a href="#" class="text-green-500">
               <font-awesome-icon
-                :icon="['fas', 'fire-alt']"
+                :icon="['fas', 'plus-circle']"
                 class="text-sm"
               ></font-awesome-icon>
-              <span>New Proporties</span>
+              <span class="font-semibold">Add Property</span>
             </a>
-          </li>
-        </ul>
-        <div class="grid grid-flow-col items-center gap-x-4">
-          <a href="#" class="text-green-500">
-            <font-awesome-icon
-              :icon="['fas', 'plus-circle']"
-              class="text-sm"
-            ></font-awesome-icon>
-            <span class="font-semibold">Add Property</span>
-          </a>
-          <a href="#" class="bg-blue-dark text-white p-4 rounded-md">
-            <font-awesome-icon :icon="['fas', 'user']"></font-awesome-icon>
-            <span class="ml-2 font-semibold">Sign In</span>
-          </a>
+            <a href="#" class="bg-blue-dark text-white p-4 rounded-md">
+              <font-awesome-icon :icon="['fas', 'user']"></font-awesome-icon>
+              <span class="ml-2 font-semibold">Sign In</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

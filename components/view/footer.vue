@@ -4,7 +4,7 @@
       <div class="max-w-screen-xl mx-auto">
         <div class="container">
           <div class="grid grid-flow-col justify-between items-center h-40">
-            <div class="text-gray-50">
+            <div class="text-gray-50 font-serif">
               <p class="text-2xl font-bold">
                 Want To Work With A Real Estate Agent?
               </p>

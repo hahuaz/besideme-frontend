@@ -41,6 +41,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/vuetify',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -63,5 +64,9 @@ export default {
       // duotone: [ ... ],
       brands: true,
     },
+  },
+  vuetify: {
+    customVariables: ['~/assets/css/variables.scss'],
+    treeShake: true,
   },
 }
