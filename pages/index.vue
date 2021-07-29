@@ -215,6 +215,13 @@
         </div>
       </div>
     </section>
+    <section class="business-count bg-blue-50">
+      <div class="max-w-screen-xl mx-auto">
+        <div class="counter mx-auto">
+          <business-count></business-count>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
