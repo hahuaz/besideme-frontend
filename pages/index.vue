@@ -232,7 +232,7 @@ export default {
       dialog: false,
       keywords: null,
       minprice: null,
-      paxprice: null,
+      maxprice: null,
       type: null,
       rooms: null,
       location: null,

@@ -45,12 +45,17 @@
 
 <script>
 export default {
+  data() {
+    return {
+      observer: null,
+    }
+  },
   mounted() {
-    const observer = new IntersectionObserver(this.animate, {
+    this.observer = new IntersectionObserver(this.animate, {
       threshold: 1,
       root: null,
     })
-    observer.observe(this.$refs.counts)
+    this.observer.observe(this.$refs.counts)
   },
 
   methods: {
@@ -99,6 +104,7 @@ export default {
               document.getElementById('growth').textContent = growth.val
             },
           })
+          observer.unobserve(entry.target)
         }
       })
     },
