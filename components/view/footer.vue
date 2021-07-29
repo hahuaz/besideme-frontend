@@ -41,6 +41,42 @@
               <p>Popaya Street West, Aloha 8007, Turkey.</p>
               <p>+90 246-345-0695</p>
               <p>info@example.com</p>
+              <div class="pt-4 w-52">
+                <ul class="footer-bottom-social grid grid-flow-col gap-x-6">
+                  <li>
+                    <a href="https://www.facebook.com/">
+                      <font-awesome-icon
+                        class="icon"
+                        :icon="['fab', 'facebook-f']"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com/">
+                      <font-awesome-icon
+                        class="icon"
+                        :icon="['fab', 'twitter']"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/">
+                      <font-awesome-icon
+                        class="icon"
+                        :icon="['fab', 'instagram']"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/">
+                      <font-awesome-icon
+                        class="icon"
+                        :icon="['fab', 'linkedin-in']"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div>
@@ -136,40 +172,8 @@
               <p>© 2021 Besideme.com - All rights reserved by <i>Hahuaz</i>.</p>
             </div>
             <div>
-              <ul class="footer-bottom-social grid grid-flow-col gap-x-6">
-                <li>
-                  <a href="https://www.facebook.com/">
-                    <font-awesome-icon
-                      class="icon"
-                      :icon="['fab', 'facebook-f']"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.twitter.com/">
-                    <font-awesome-icon
-                      class="icon"
-                      :icon="['fab', 'twitter']"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/">
-                    <font-awesome-icon
-                      class="icon"
-                      :icon="['fab', 'instagram']"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/">
-                    <font-awesome-icon
-                      class="icon"
-                      :icon="['fab', 'linkedin-in']"
-                    />
-                  </a>
-                </li>
-              </ul>
+              <a href="#">Terms of use </a>
+              <a href="#" class="ml-4">Privaciy Policy </a>
             </div>
           </div>
         </div>

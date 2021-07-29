@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="landing">
-      <div class="background--wrapper">
+    <section class="hero">
+      <div class="background--wrapper h-[850px]">
         <div class="max-w-screen-xl mx-auto">
           <div class="container mx-auto">
             <div class="p-24">
@@ -97,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="background--image"></div>
+        <div class="hero background--image"></div>
       </div>
     </section>
     <section class="about-us">
@@ -215,10 +215,16 @@
         </div>
       </div>
     </section>
+
+    <section class="explore">
+      <div class="counter mx-auto mt-24">
+        <landing-explore></landing-explore>
+      </div>
+    </section>
     <section class="business-count bg-blue-50">
       <div class="max-w-screen-xl mx-auto">
         <div class="counter mx-auto">
-          <business-count></business-count>
+          <landing-counts></landing-counts>
         </div>
       </div>
     </section>
@@ -250,8 +256,12 @@ export default {
   margin-right: 6px;
 }
 
-.background--image {
-  background-image: linear-gradient(to bottom, rgba(gray, 0.2), rgba(gray, 0.2)),
+.hero.background--image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(black, 0.3),
+      rgba(black, 0.3)
+    ),
     url('~/assets/image/landing-hero.jpg');
 }
 </style>
