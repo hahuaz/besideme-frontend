@@ -129,11 +129,11 @@
                         pulse
                         cursor-pointer
                       "
-                      @click.stop="dialog = true"
+                      @click.stop="roomExplore = true"
                     >
                       <v-icon large color="#ff5a3c"> mdi-play </v-icon>
                     </span>
-                    <v-dialog v-model="dialog" width="600px">
+                    <v-dialog v-model="roomExplore" width="600px">
                       <div class="">
                         <!-- TODO when you close the dialog without stopping video, video continous to play -->
                         <iframe
@@ -221,6 +221,43 @@
         <landing-explore></landing-explore>
       </div>
     </section>
+    <section class="parallax">
+      <div class="h-[350px] mt-32">
+        <v-parallax height="350" src="/parallax.jpg">
+          <span
+            class="
+              absolute
+              top-1/2
+              left-1/2
+              transform
+              -translate-x-1/2 -translate-y-1/2
+              bg-white
+              rounded-full
+              p-4
+              pulse
+              cursor-pointer
+            "
+            @click.stop="waves = true"
+          >
+            <v-icon large color="#ff5a3c"> mdi-play </v-icon>
+          </span>
+          <v-dialog v-model="waves" width="560px">
+            <div class="">
+              <!-- TODO when you close the dialog without stopping video, video continous to play -->
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/TbFmGLVhhJg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </v-dialog>
+        </v-parallax>
+      </div>
+    </section>
     <section class="business-count bg-blue-50">
       <div class="max-w-screen-xl mx-auto">
         <div class="counter mx-auto">
@@ -235,7 +272,9 @@
 export default {
   data() {
     return {
-      dialog: false,
+      roomExplore: false,
+      waves: false,
+
       keywords: null,
       minprice: null,
       maxprice: null,
@@ -263,5 +302,19 @@ export default {
       rgba(black, 0.3)
     ),
     url('~/assets/image/landing-hero.jpg');
+}
+
+::v-deep .v-parallax__image-container::before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(black, 0.3),
+    rgba(black, 0.3)
+  );
 }
 </style>

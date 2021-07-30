@@ -223,7 +223,7 @@ export default {
     height: 100%;
     background-image: linear-gradient(
       to top,
-      rgba(black, 0.5),
+      rgba(black, 1),
       rgba(black, 0) 30%
     );
   }
