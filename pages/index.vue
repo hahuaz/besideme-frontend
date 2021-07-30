@@ -221,8 +221,17 @@
         <landing-explore></landing-explore>
       </div>
     </section>
+    <section class="proporties">
+      <div class="bg-blue-50">
+        <div class="max-w-screen-xl mx-auto">
+          <div class="container mx-auto">
+            <landing-proporties></landing-proporties>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="parallax">
-      <div class="h-[350px] mt-32">
+      <div class="h-[350px]">
         <v-parallax height="350" src="/parallax.jpg">
           <span
             class="
