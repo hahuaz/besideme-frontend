@@ -103,7 +103,7 @@ export default {
           rooms: 3,
           sqrmtr: 114,
           age: 5,
-          shortAdress: 'Vanilla Alk Street',
+          shortAdress: 'Vanilla Alk Area',
         },
         {
           images: [6, 1, 2],
@@ -113,7 +113,7 @@ export default {
           rooms: 3,
           sqrmtr: 154,
           age: 5,
-          shortAdress: 'Debulve Street',
+          shortAdress: 'Debulve District',
         },
         {
           images: [7, 3, 4],
@@ -133,7 +133,7 @@ export default {
           rooms: 5,
           sqrmtr: 194,
           age: 9,
-          shortAdress: 'Sarsal Strict',
+          shortAdress: 'Sarsal District',
         },
         {
           images: [9, 6, 1],
@@ -143,7 +143,7 @@ export default {
           rooms: 2,
           sqrmtr: 164,
           age: 0,
-          shortAdress: 'Kalben Strict',
+          shortAdress: 'Kalben District',
         },
       ],
     }
