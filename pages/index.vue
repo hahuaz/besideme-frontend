@@ -232,7 +232,7 @@
     </section>
     <section class="parallax">
       <div class="h-[350px]">
-        <v-parallax height="350" src="/parallax.jpg">
+        <v-parallax height="350" src="/images/parallax.jpg">
           <span
             class="
               absolute
