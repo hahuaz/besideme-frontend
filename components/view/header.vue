@@ -21,6 +21,7 @@
               text-sm
               font-semibold
             "
+            @click.stop="login = true"
             >Be a Partner</a
           >
         </div>
@@ -209,7 +210,9 @@
                 :icon="['fas', 'plus-circle']"
                 class="text-sm"
               ></font-awesome-icon>
-              <span class="font-semibold">Add Property</span>
+              <span class="font-semibold" @click="login = true"
+                >Add Property</span
+              >
             </a>
             <a
               href="#"
