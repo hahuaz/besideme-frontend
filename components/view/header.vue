@@ -204,17 +204,27 @@
             </li>
           </ul>
           <div class="grid grid-flow-col items-center gap-x-4">
-            <a href="#" class="text-green-500">
+            <a href="#" class="text-green-500" @click.stop="showLogin = true">
               <font-awesome-icon
                 :icon="['fas', 'plus-circle']"
                 class="text-sm"
               ></font-awesome-icon>
               <span class="font-semibold">Add Property</span>
             </a>
-            <a href="#" class="bg-blue-dark text-white p-4 rounded-md">
+            <a
+              href="#"
+              class="bg-blue-dark text-white p-4 rounded-md"
+              @click.stop="login = true"
+            >
               <font-awesome-icon :icon="['fas', 'user']"></font-awesome-icon>
               <span class="ml-2 font-semibold">Sign In</span>
             </a>
+            <v-dialog v-model="login" width="640px ">
+              <login @clicked:register="toggleLogReg"></login>
+            </v-dialog>
+            <v-dialog v-model="register" width="1024px ">
+              <register @clicked:login="toggleLogReg"></register>
+            </v-dialog>
           </div>
         </div>
       </div>
@@ -226,6 +236,8 @@
 export default {
   data() {
     return {
+      register: false,
+      login: false,
       itemOneActive: false,
       itemTwoActive: false,
       itemThreeActive: false,
@@ -233,7 +245,12 @@ export default {
       show: true,
     }
   },
-  methods: {},
+  methods: {
+    toggleLogReg() {
+      this.register = !this.register
+      this.login = !this.login
+    },
+  },
 }
 </script>
 

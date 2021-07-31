@@ -299,11 +299,6 @@ export default {
 ::v-deep .v-btn__content {
   color: white;
 }
-
-::v-deep .v-input__prepend-inner {
-  margin-right: 6px;
-}
-
 .hero.background--image {
   background-image: linear-gradient(
       to bottom,
