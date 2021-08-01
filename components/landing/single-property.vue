@@ -14,7 +14,7 @@
       >
         <splide-slide v-for="imageNo in property.images" :key="imageNo">
           <img
-            class="w-full h-[240px] object-cover object-center"
+            class="w-full h-full object-cover object-center"
             :src="`/images/home-${imageNo}.jpg`"
             alt=""
           />
