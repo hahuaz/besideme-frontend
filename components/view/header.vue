@@ -39,24 +39,24 @@
               @mouseenter="$event.target.classList.toggle('menu--open')"
               @mouseleave="$event.target.classList.toggle('menu--open')"
             >
-              <a class="nav__link" href="#"
+              <a class="nav__link" href="#javascript"
                 >Home
                 <span class="menu-indicator">
                   <span class="menu-indicator-chevron"></span>
                 </span>
               </a>
               <ul class="menu menu--main">
-                <li><a href="#">Lorem</a></li>
-                <li><a href="">Sit Ametes Cezete</a></li>
-                <li><a href="">Valis Kaste Akse</a></li>
-                <li><a href="">Mahtel Lerste</a></li>
-                <li><a href="">Velse Kesente</a></li>
+                <li><nuxt-link to="/property">Lorem</nuxt-link></li>
+                <li><nuxt-link to="/property">Sit Ametes Cezete</nuxt-link></li>
+                <li><nuxt-link to="/property">Valis Kaste Akse</nuxt-link></li>
+                <li><nuxt-link to="/property">Mahtel Lerste</nuxt-link></li>
+                <li><nuxt-link to="/property">Velse Kesente</nuxt-link></li>
                 <li
                   class="nav__item"
                   @mouseenter="$event.target.classList.toggle('menu--open')"
                   @mouseleave="$event.target.classList.toggle('menu--open')"
                 >
-                  <a href="">
+                  <a href="#javascript">
                     <div class="relative inline-block">
                       Sit Antenkentest
                       <span class="submenu-indicator">
@@ -65,8 +65,8 @@
                     </div>
                   </a>
                   <ul class="menu menu--sub">
-                    <li><a href="">Lorem Lore</a></li>
-                    <li><a href="">Kalbe</a></li>
+                    <li><nuxt-link to="/property">Lorem Lore</nuxt-link></li>
+                    <li><nuxt-link to="/property">Kalbe</nuxt-link></li>
                   </ul>
                 </li>
               </ul>
@@ -97,10 +97,10 @@
                     </div>
                   </a>
                   <ul class="menu menu--sub">
-                    <li><a href="">Coffe</a></li>
-                    <li><a href="">Coffe Tables</a></li>
-                    <li><a href="">Tea Tea</a></li>
-                    <li><a href="">Cold Tea</a></li>
+                    <li><nuxt-link to="/property">Coffe</nuxt-link></li>
+                    <li><nuxt-link to="/property">Coffe Tables</nuxt-link></li>
+                    <li><nuxt-link to="/property">Tea Tea</nuxt-link></li>
+                    <li><nuxt-link to="/property">Cold Tea</nuxt-link></li>
                   </ul>
                 </li>
                 <li

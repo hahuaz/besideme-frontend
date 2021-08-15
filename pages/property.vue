@@ -255,11 +255,25 @@
         </div>
       </div>
     </section>
+    <v-overlay :value="overlay" opacity=".9" z-index="100">
+      <v-progress-circular indeterminate size="64"></v-progress-circular>
+    </v-overlay>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      overlay: true,
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.overlay = false
+    }, 700)
+  },
+}
 </script>
 <style lang="scss">
 .head-carousel {

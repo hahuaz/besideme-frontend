@@ -75,10 +75,10 @@
           </v-icon>
           <p class="text-gray-500">{{ property.shortAdress }}</p>
         </div>
-        <a
-          href="#javascript"
+        <nuxt-link
+          to="/property"
           class="bg-green-500 text-white text-sm px-2 py-1 rounded-2xl"
-          >See More</a
+          >See More</nuxt-link
         >
       </div>
     </div>
@@ -92,6 +92,9 @@ export default {
       type: Object,
       default: () => {},
     },
+  },
+  mounted() {
+    console.log(this.$nuxt)
   },
 }
 </script>
