@@ -225,7 +225,7 @@
       <div class="bg-blue-50">
         <div class="max-w-screen-xl mx-auto">
           <div class="container mx-auto">
-            <landing-proporties></landing-proporties>
+            <landing-properties></landing-properties>
           </div>
         </div>
       </div>

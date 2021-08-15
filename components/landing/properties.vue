@@ -56,7 +56,7 @@ export default {
     return {
       properties: [
         {
-          images: [1, 8, 9],
+          images: [1, 2, 3],
           type: 'Rent',
           title: 'Vinchester Village',
           price: 3400,
@@ -66,7 +66,7 @@ export default {
           shortAdress: 'Vanilla Street',
         },
         {
-          images: [2, 7, 6],
+          images: [4, 5, 6],
           type: 'Sell',
           title: 'Luxry Vİllage',
           price: 119700,
@@ -76,7 +76,7 @@ export default {
           shortAdress: 'Nanely Street',
         },
         {
-          images: [3, 5, 4],
+          images: [7, 8, 9],
           type: 'Rent',
           title: 'Sims Village',
           price: 2300,
@@ -86,7 +86,7 @@ export default {
           shortAdress: 'Kalsib Avenue',
         },
         {
-          images: [4, 1, 2],
+          images: [10, 11, 12],
           type: 'Buy',
           title: 'Vinchester Apartment',
           price: 333400,
@@ -96,7 +96,7 @@ export default {
           shortAdress: 'Depsen Avenue',
         },
         {
-          images: [5, 3, 2],
+          images: [13, 14, 15],
           type: 'Rent',
           title: 'Kalibre Real Estate',
           price: 1200,
@@ -106,7 +106,7 @@ export default {
           shortAdress: 'Vanilla Alk Area',
         },
         {
-          images: [6, 1, 2],
+          images: [16, 17, 1],
           type: 'Rent',
           title: 'Besideme Aparment',
           price: 1400,
@@ -116,7 +116,7 @@ export default {
           shortAdress: 'Debulve District',
         },
         {
-          images: [7, 3, 4],
+          images: [2, 3, 4],
           type: 'Rent',
           title: 'Palas Home',
           price: 2400,
@@ -126,7 +126,7 @@ export default {
           shortAdress: 'Vanilla Street',
         },
         {
-          images: [8, 4, 5],
+          images: [5, 6, 7],
           type: 'Rent',
           title: 'Brown Village',
           price: 5400,
@@ -136,7 +136,7 @@ export default {
           shortAdress: 'Sarsal District',
         },
         {
-          images: [9, 6, 1],
+          images: [8, 9, 10],
           type: 'Buy',
           title: 'Vinchester Village',
           price: 133400,
