@@ -1,5 +1,24 @@
 <template>
   <div>
+    <div class="head-carousel">
+      <splide
+        :options="{
+          rewind: true,
+          perPage: 2,
+          arrows: true,
+          height: 600,
+          pagination: false,
+        }"
+      >
+        <splide-slide v-for="imageNo in 9" :key="imageNo">
+          <img
+            class="w-full h-full object-cover object-center"
+            :src="`/images/home-${imageNo}.jpg`"
+            alt=""
+          />
+        </splide-slide>
+      </splide>
+    </div>
     <section>
       <div class="max-w-screen-xl mx-auto">
         <div class="image-grid container mx-auto py-12 px-4">
@@ -61,6 +80,23 @@
 <script>
 export default {}
 </script>
+<style lang="scss">
+.head-carousel {
+  .splide__arrow--next {
+    right: 2rem;
+  }
+  .splide__arrow--prev {
+    left: 2rem;
+  }
+  .splide__arrow {
+    background: white;
+    opacity: 1;
+    height: 2.5rem;
+    width: 2.5rem;
+    fill: rgb(0, 197, 0);
+  }
+}
+</style>
 
 <style lang="scss" scoped>
 .image-grid {
